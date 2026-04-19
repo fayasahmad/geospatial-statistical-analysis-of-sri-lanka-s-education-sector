@@ -1,0 +1,8 @@
+"","Student.Enrollment","Research.Funding..Million.USD.","Graduation.Rate....","Student.Faculty.Ratio","Tuition.Fees..USD.","Employment.Rate....","University.Ranking.Score"
+"Student.Enrollment",1,-0.028,-0.05,0,-0.109,-0.053,-0.057
+"Research.Funding..Million.USD.",-0.028,1,0.031,0.008,-0.059,-0.076,0.385
+"Graduation.Rate....",-0.05,0.031,1,0.006,0.033,-0.03,0.349
+"Student.Faculty.Ratio",0,0.008,0.006,1,0.009,-0.014,-0.204
+"Tuition.Fees..USD.",-0.109,-0.059,0.033,0.009,1,-0.046,-0.105
+"Employment.Rate....",-0.053,-0.076,-0.03,-0.014,-0.046,1,0.227
+"University.Ranking.Score",-0.057,0.385,0.349,-0.204,-0.105,0.227,1

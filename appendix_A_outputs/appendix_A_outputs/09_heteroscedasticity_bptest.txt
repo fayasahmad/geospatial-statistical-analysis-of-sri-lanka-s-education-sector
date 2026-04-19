@@ -1,6 +1,0 @@
-
-	studentized Breusch-Pagan test
-
-data:  mlr
-BP = 4.5304, df = 6, p-value = 0.6053
-

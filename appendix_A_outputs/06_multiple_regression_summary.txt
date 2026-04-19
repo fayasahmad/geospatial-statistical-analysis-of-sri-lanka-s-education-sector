@@ -1,0 +1,50 @@
+=== Multiple Linear Regression (Full) ===
+
+Call:
+lm(formula = full_formula, data = uqr)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-15.8801  -6.6813  -0.0829   7.3144  14.5931 
+
+Coefficients:
+                                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                     4.462e+01  4.072e+00  10.956  < 2e-16 ***
+Graduation.Rate....             3.069e-01  3.134e-02   9.792  < 2e-16 ***
+Employment.Rate....             2.332e-01  3.201e-02   7.284 1.29e-12 ***
+Research.Funding..Million.USD.  2.944e-02  2.690e-03  10.944  < 2e-16 ***
+Student.Faculty.Ratio          -2.890e-01  5.007e-02  -5.772 1.39e-08 ***
+Student.Enrollment             -1.784e-05  2.636e-05  -0.677   0.4988    
+Tuition.Fees..USD.             -5.868e-05  2.536e-05  -2.314   0.0211 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.163 on 493 degrees of freedom
+Multiple R-squared:  0.3821,	Adjusted R-squared:  0.3746 
+F-statistic: 50.81 on 6 and 493 DF,  p-value: < 2.2e-16
+
+
+=== ANOVA ===
+Analysis of Variance Table
+
+Response: University.Ranking.Score
+                                Df Sum Sq Mean Sq  F value    Pr(>F)    
+Graduation.Rate....              1   6484  6484.2  97.3124 < 2.2e-16 ***
+Employment.Rate....              1   3011  3010.9  45.1865 4.966e-11 ***
+Research.Funding..Million.USD.   1   8217  8217.3 123.3222 < 2.2e-16 ***
+Student.Faculty.Ratio            1   2235  2234.6  33.5356 1.247e-08 ***
+Student.Enrollment               1     12    11.7   0.1763   0.67479    
+Tuition.Fees..USD.               1    357   356.8   5.3551   0.02107 *  
+Residuals                      493  32850    66.6                       
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+=== 95% Confidence Intervals ===
+                                       2.5 %        97.5 %
+(Intercept)                     3.661506e+01  5.261790e+01
+Graduation.Rate....             2.453316e-01  3.684979e-01
+Employment.Rate....             1.702654e-01  2.960549e-01
+Research.Funding..Million.USD.  2.415410e-02  3.472476e-02
+Student.Faculty.Ratio          -3.873570e-01 -1.906100e-01
+Student.Enrollment             -6.963064e-05  3.394784e-05
+Tuition.Fees..USD.             -1.085108e-04 -8.858492e-06
